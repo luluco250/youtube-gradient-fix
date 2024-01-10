@@ -32,3 +32,5 @@ I do not know why it is done like this, maybe some bizarre optimization, but I h
 You can use an extension like Stylus ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/styl-us/)/[Chrome](https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne)) to use this fix, simply add a new style for `https://youtube.com` and paste the CSS rule above (also provided in the `userstyle.css` file).
 
 You could alternatively simply disable the element with uBlock Origin ([Firefox](https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/)/[Chrome](https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm)) or by using `display: none` in the CSS rule, but I would not recommend this as it makes it impossible to see the controls over a white background (though I have seen them change the design from time to time where the controls would have a drop shadow around them, but as of now they seem to be completely white).
+
+Do feel free to reuse the code, I've chosen to use MIT only due to issues with the Unlicense and CC0/public domain, no credit required.
